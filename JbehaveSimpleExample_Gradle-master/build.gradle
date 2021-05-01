@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group '1234'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.jbehave', name: 'jbehave-core', version: '4.3.4'
+    compile group: 'com.github.valfirst', name: 'jbehave-junit-runner', version: '2.0.0'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+}

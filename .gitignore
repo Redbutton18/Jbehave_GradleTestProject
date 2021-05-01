@@ -1,0 +1,5 @@
+# Project exclude paths
+/JbehaveSimpleExample_Gradle-master/.gradle/
+/JbehaveSimpleExample_Gradle-master/build/
+/JbehaveSimpleExample_Gradle-master/build/classes/java/main/
+/JbehaveSimpleExample_Gradle-master/build/classes/java/test/
